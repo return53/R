@@ -13,7 +13,7 @@
 10
 25
 
-Basit hesaplamalar yapmak için sayıları birlikte toplayın:
+#Basit hesaplamalar yapmak için sayıları birlikte toplayın:
 
 5 + 5
 
