@@ -575,35 +575,32 @@ if (x > 10) {
   print("10'dan küçük.")
 }
 
-#AND
-#The & symbol is used as the logical AND operator in R. It is used to combine two or more conditional statements and returns TRUE if all the conditions are true.
+# R - AND ve OR Operatörleri
+# AND
+# & sembolü (ve), mantıksal bir operatördür ve koşullu ifadeleri birleştirmek için kullanılır:
 
-#To test if a is greater than b AND if c is greater than a:
-
+# a, b'den büyük mü VE a, c'den büyük mü diye test edin:
+  
 a <- 200
 b <- 33
 c <- 500
+
 if (a > b & c > a) {
-  print("Both conditions are true")
+  print("Her iki koşul da doğrudur")
 }
 
-#In this example, if a is greater than b (which is true) AND c is greater than a (which is also true), then the message "Both conditions are true" will be printed.
+# OR
+# | sembolü (veya), mantıksal bir operatördür ve koşullu ifadeleri birleştirmek için kullanılır:
 
-#OR
-#The | symbol is used as the logical OR operator in R. It is used to combine two or more conditional statements and returns TRUE if at least one of the conditions is true.
-
-#Example:
-#To test if a is greater than b OR if c is greater than a:
-
+# a, b'den büyük mü YA DA c, a'dan büyük mü diye test edin:
+  
 a <- 200
 b <- 33
 c <- 500
 
 if (a > b | a > c) {
-  print("At least one of the conditions is true")
+  print("Koşullardan en az biri doğrudur")
 }
-
-#In this example, if a is greater than b (which is true) OR c is greater than a (which is not true), then the message "At least one of the conditions is true" will be printed.
 
 #R While Döngüsü
 #Döngüler
